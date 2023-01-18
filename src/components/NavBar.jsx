@@ -19,10 +19,10 @@ const NavBar = () => {
     <>
       <Flex>
         <Heading ml={3}>
-          <Link to={'/home'}>Simple Cart</Link>
+          <Link to={'/'}>Simple Cart</Link>
         </Heading>
         <Button size={'lg'} mx={4} colorScheme={''}>
-          <Link to={'/home'}>🏠</Link>
+          <Link to={'/'}>🏠</Link>
         </Button>
         <Spacer />
         <Button size={'lg'} m={1} colorScheme="whiteAlpha" color={'black'}>

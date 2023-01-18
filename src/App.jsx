@@ -11,7 +11,7 @@ const App = () => {
     <Flex flexDir={'column'} minHeight="100vh">
       <NavBar />
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
       <Footer />

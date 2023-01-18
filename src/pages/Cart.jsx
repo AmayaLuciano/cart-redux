@@ -21,7 +21,7 @@ const Cart = () => {
           <Heading>No tienes productos en el carrito</Heading>
           <Box display={'flex'}>
             <Text>
-              Mejor anda a comprar algo <Link to={'/home'}>🛍 ↩️</Link>{' '}
+              Mejor anda a comprar algo <Link to={'/'}>🛍 ↩️</Link>{' '}
             </Text>
           </Box>
         </Container>
